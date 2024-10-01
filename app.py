@@ -13,3 +13,4 @@ return render_template('success.html')
 return render_template('register.html')
 if name == ' main ':
     app.run(host='0.0.0.0')
+    print("Success")
